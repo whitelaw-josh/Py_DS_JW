@@ -44,3 +44,21 @@ house = [["hallway", 11.25],
 # Build a for loop from scratch
 for room, area in house:
     print("the " + room + " is " + str(area) + " sqm")
+
+# Definition of dictionary
+europe = {'spain':'madrid', 'france':'paris', 'germany':'berlin',
+          'norway':'oslo', 'italy':'rome', 'poland':'warsaw', 'austria':'vienna' }
+          
+# Iterate over europe
+for k, v in europe.items() :
+    print("the capital of " + k + " is " + v)
+
+#!!!IMPORTANT: Note that there are no values for np_height or np_baseball
+
+# For loop over np_height
+for x in np.nditer(np_height) :
+    print(str(x) + " inches")
+
+# For loop over np_baseball
+for x in np.nditer(np_baseball) :
+    print(str(x))
