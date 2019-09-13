@@ -46,7 +46,6 @@ europe = { 'spain': { 'capital':'madrid', 'population':46.77 },
            'germany': { 'capital':'berlin', 'population':80.62 },
            'norway': { 'capital':'oslo', 'population':5.084 } }
 
-
 # Print out the capital of France
 print(europe['spain']['capital'])
 
