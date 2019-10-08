@@ -158,6 +158,3 @@ def count_entries(csv_file, c_size, colname):
 
 # Call count_entries(): result_counts
 result_counts = count_entries('tweets.csv', 10, 'lang')
-
-# Print result_counts
-print(result_counts)
