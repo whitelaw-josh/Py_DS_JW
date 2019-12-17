@@ -1,4 +1,7 @@
-def add_these_numbers(num1, num2):
-    print('the sum is, ' + str(num1 + num2))
+arr = []
 
-add_these_numbers(1, 5)
+for _ in range(6):
+    arr.append(list(map(int, input().rstrip().split())))
+
+print(type(arr))
+print(arr[0][1])
