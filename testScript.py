@@ -1,7 +1,31 @@
-arr = []
 
-for _ in range(6):
-    arr.append(list(map(int, input().rstrip().split())))
+import math
+import os
+import random
+import re
+import sys
 
-print(type(arr))
-print(arr[0][1])
+# Complete the twoStrings function below.
+def twoStrings(s1, s2):
+    for c in list(s1):
+        if c in s2:
+            print('YES');
+            return;
+            
+    print('NO');
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    q = int(input())
+
+    for q_itr in range(q):
+        s1 = input()
+
+        s2 = input()
+
+        result = twoStrings(s1, s2)
+
+        fptr.write(result + '\n')
+
+    fptr.close()
