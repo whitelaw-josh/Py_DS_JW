@@ -87,7 +87,7 @@ sel = cars[cars['drives_right']]
 # sel = cars[dr]
 
 # Print sel
-print(sel)
+print(sel) 
 
 # Create car_maniac: observations that have a cars_per_cap over 500
 car_maniac = cars[cars["cars_per_cap"] > 500]
